@@ -1,0 +1,10 @@
+# Exported from Render on 2025-05-25T05:39:21Z
+services:
+- type: web
+  name: render-test
+  runtime: static
+  repo: https://github.com/ShivharakhYadav/render-test
+  buildCommand: npm run build
+  staticPublishPath: build
+  autoDeployTrigger: commit
+version: "1"
