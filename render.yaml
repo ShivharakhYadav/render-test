@@ -2,7 +2,7 @@
 services:
 - type: web
   name: render-test
-  runtime: static
+  runtime: node
   repo: https://github.com/ShivharakhYadav/render-test
   buildCommand: npm run build
   staticPublishPath: build
